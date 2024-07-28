@@ -1,0 +1,34 @@
+
+=== OBAVEZNO NAUČI !!! ===
+
+Apstraktna klasa i interfejs:
+
+Apstraktna klasa ima sve što ima obična, ali može da ima i apstraktne metode.
+
+Apstraktne metode su metode bez implementacije (bez tela) i svaka klasa koja nasledi (extends) tu apstraktnu klasu 
+mora da implementira sve njene apstraktne metode na svoj način.
+
+Interfejs može da ima samo apstraktne metode.
+
+Interfejs ne može da implementira drugi interfejs (zato smo stavili da je AbstractDomainObject apstraktna klasa, a ne interfejs),
+ali ima fora interface AbstractDomainObject extends Serializable, mogli smo i to da uradimo.
+
+Svaka klasa (bilo da je obična ili apstraktna) može da implementira više interfejsa.
+
+Svaka klasa može da nasledi samo jednu klasu.
+
+=============================================
+
+Iz dokumentacije:
+
+APUSO znači Aktor Priprema Ulaz za Sistemsku Operaciju
+APSO znači Aktor Poziva sistem da izvrši Sistemsku Operaciju
+ANSO znači Aktor izvršava NeSistemsku Operaciju
+SO znači sistem izvršava Sistemsku Operaciju
+IA znači Izlazni Argument
+
+Za konceptualni model:
+U dijagramu klasa (konceptualnom modelu) pun romb se zove KOMPOZICIJA (slab objekat u PMOVu), a isprekidana linija između veze 2 objekta
+   se zove ASOCIJACIJA (agregacija u PMOVu).
+
+=== OBAVEZNO NAUČI !!! ===

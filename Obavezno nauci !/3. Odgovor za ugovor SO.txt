@@ -1,0 +1,13 @@
+
+Ako te pitaju gde se SOAddTermin ili SOAddFilm nalazi u kodu (slika iz 3. faze za dijagrame sekvenci za ugovore), ti kažeš:
+
+To mi je SOAddTermin, svaka naša sistemska operacija nasleđuje AbstractSO koja u sebi ima validate i execute 
+apstraktne metode koje se izvršavaju različito za svaku SO. 
+ServerController poziva templateExecute metodu za svaku SO čime se izvršavaju njen validate i 
+execute, pa onda objasniš šta si stavio za validate i execute za tu operaciju.
+
+(Napomena za tebe: SoUpdateTermin nije složen, nemoj u 3. fazi da staviš onaj dijagram update za složen!!!)
+
+Ovo se zove TEMPLATE-METOD PATERN!
+
+=== TEMPLATE-METOD PATERN smo koristili na serveru, ako pitaju koji patern je korišćen ===

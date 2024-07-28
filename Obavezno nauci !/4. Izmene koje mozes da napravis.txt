@@ -1,0 +1,33 @@
+
+Sve u radu što imaš, ostavi, nemoj da brišeš, samo možeš da nadogradiš. Što više izmeniš/dodaš, to bolje.
+
+Koristi CTRL + R za Refactor klasa, metoda itd.
+
+1. Obavezno izmeni izgled serverske forme, malo dodaj nešto što želiš, da ne bude svima ista.
+
+2. Možeš umesto *abstract class AbstractDomainObject implements Serializable* da staviš *interface AbstractDomainObject extends Serializable*.
+
+3. Možeš da izmeniš nazive metoda u AbstractDomainObjectu.
+
+4. Možeš da izmeniš naziv AbstractDomainObjecta.
+
+5. Možeš da menjaš nazive operacija.
+
+6. Možeš da menjaš nazive za ClientController, ServerController, ThreadServer, ThreadClient.
+
+7. Možeš da izmeniš naziv AbstractSO i metoda validate, execute, templateExecute (ovo je izvrsavanje opste operacije), commit i rollback.
+
+8. Možeš da izmeniš nazive metoda insert, update, delete i select u DBBrokeru.
+
+9. Možeš da izmeniš nazive bilo kakvih metoda u celom projektu, npr. u ClientControlleru metoda sendRequest();
+
+===== SVE OVE KLASE/METODE IZMENI I U DOKUMENTACIJI GDE SE POMINJU U TREĆOJ FAZI AKO IZMENIŠ U RADU !!! =====
+
+Možeš da izmeniš malo konačni dijagram arhitekture softverskog sistema (onaj veliki dijagram u 3. fazi), 
+suština mora da ostane ista, sve da bude isto povezano.
+
+Možeš da dodaš validacije za email, telefon (samo brojevi) ili šta god želiš, to samo kucaj na guglu da nađeš patern.
+
+Možeš umesto key released za pretragu da staviš i button Pretraga ako želiš (takođe i za količinu i cenu stavke ako imaš u radu).
+
+Možeš da staviš i button za odjavu ili bilo šta drugo da bude malo drugačija odjava (npr. da ne bude u meniju, kako god želiš).

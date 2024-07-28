@@ -1,0 +1,17 @@
+
+- Napravimo operaciju za ADD, DELETE, UPDATE i GET_ALL predmet.
+
+- Praviš novu tabelu Predmet u bazi sa ID-em, nazivom i ESPB,
+  posle toga napraviš klasu Predmet u domenu sa istim atributima, 
+  onda prekopiraš sve Overridovane metode iz Administratora i menjaš za Predmet.
+
+Sad idemo na Server i pratimo sliku unazad:
+- DBBroker je odrađen, izvršavaju se generičke metode.
+- Pravimo klasu za svaku sistemsku operaciju, kopiramo postojeću i menjamo naziv objekta u Predmet.
+- Pozivamo svaku SO u ServerControlleru gde izvršavamo templateExecute (opet copy-paste i menjamo naziv objekta).
+- Pozivamo ServerControllera u ThreadClientu (opet copy-paste).
+
+- Sad idemo na Klijenta i pozivamo sve to u ClientControlleru (copy-paste).
+
+- Nakon toga, kreiramo forme za CRUD operacije, kopiramo postojeće forme Novi, Pretraga i Detalji i menjamo za Predmet.
+- Za pretragu će nam trebati model, pa samo kopiramo postojeći TableModel i menjamo za Predmet.
